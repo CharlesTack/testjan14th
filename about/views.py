@@ -3,13 +3,6 @@ from .models import About
 
 # Create your views here.
 
-class PostList(generic.ListView):
-    
-    template_name = "about/about.html"
-    paginate_by = 6
-
-
-
 def about_me(request):
     """
     Renders the About page
