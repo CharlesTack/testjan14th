@@ -10,7 +10,7 @@
             <!-- Title goes between these h2 tags -->
             <h2>{{ about.title }}</h2>
             <!-- Content goes directly underneath this -->
-            <p>{{ about.content }}</p>
+            {{ about.content | safe }}
         </div>
     </div>
     <div class="row">
